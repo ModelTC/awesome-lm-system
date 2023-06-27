@@ -14,18 +14,37 @@ This paper collects papers, repos, tools for large model system, including train
 
 ### Training
 
-| Year  | Publisher | Title  | Framework |
-| :---: | :-------: | :----- | :-------: |
-| Year  |    Pub    | Title  | Framework |
-| Year  |    Pub    | Title1 | Framework |
+| Year |    Publisher    | Title                                                                                                                                                                                       |    Framework     |
+|:----:|:---------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
+| 2023 |                 | [Understanding INT4 Quantization for Transformer Models: Latency Speedup, Composability, and Failure Cases](https://arxiv.org/abs/2301.12017)                                               | [DeepSpeed](#ds) |
+| 2023 |      ICLR       | [DySR: Adaptive Super-Resolution via Algorithm and System Co-design](https://openreview.net/forum?id%253DPgtn4l6eKjv)                                                                       | [DeepSpeed](#ds) |
+| 2023 |                 | [Scaling Vision-Language Models with Sparse Mixture of Experts](https://arxiv.org/abs/2303.07226)                                                                                           | [DeepSpeed](#ds) |
+| 2023 |      IPDPS      | [MCR-DL: Mix-and-Match Communication Runtime for Deep Learning](https://arxiv.org/abs/2303.08374)                                                                                           | [DeepSpeed](#ds) |
+| 2023 |       ICS       | [A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training](https://arxiv.org/abs/2303.06318)                                                                | [DeepSpeed](#ds) |
+| 2022 |      HiPC       | [1-bit LAMB: Communication Efficient Large-Scale Large-Batch Training with LAMB's Convergence Speed](https://ieeexplore.ieee.org/document/10106313)                                         | [DeepSpeed](#ds) |
+| 2022 |     NeurIPS     | [The Stability-Efficiency Dilemma: Investigating Sequence Length Warmup for Training GPT Models](https://openreview.net/forum?id%253DJpZ5du_Kdh)                                            | [DeepSpeed](#ds) |
+| 2022 |                 | [Maximizing Communication Efficiency for Large-scale Training via 0/1 Adam](https://arxiv.org/abs/2202.06009)                                                                               | [DeepSpeed](#ds) |
+| 2022 |      ICML       | [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a.html)                              | [DeepSpeed](#ds) |
+| 2022 |                 | [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model](https://arxiv.org/abs/2201.11990)                                                 | [DeepSpeed](#ds) |
+| 2022 |    NeuraIPS     | [Extreme Compression for Pre-trained Transformers Made Simple and Efficient](https://openreview.net/forum?id%253DxNeAhc2CNAl)                                                               | [DeepSpeed](#ds) |
+| 2022 |    NeuraIPS     | [ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers](https://openreview.net/forum?id%253Df-fVCElZ-G1)                                              | [DeepSpeed](#ds) |
+| 2022 |                 | [Random-LTD: Random and Layerwise Token Dropping Brings Efficient Training for Large-scale Transformers](https://arxiv.org/abs/2211.11586)                                                  | [DeepSpeed](#ds) |
+| 2022 |                 | [DeepSpeed Data Efficiency: Improving Deep Learning Model Quality and Training Efficiency via Efficient Data Sampling and Routing](https://arxiv.org/abs/2212.03597)                        | [DeepSpeed](#ds) |
+| 2021 |       SC        | [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://dl.acm.org/doi/abs/10.1145/3458817.3476205)                                                           | [DeepSpeed](#ds) |
+| 2021 |      ICML       | [1-bit Adam: Communication Efficient Large-Scale Training with Adam's Convergence Speed](http://proceedings.mlr.press/v139/tang21a.html)                                                    | [DeepSpeed](#ds) |
+| 2021 |       ATC       | [ZeRO-Offload: Democratizing Billion-Scale Model Training.](https://www.usenix.org/conference/atc21/presentation/ren-jie)                                                                   | [DeepSpeed](#ds) |
+| 2020 | SIGKDD Tutorial | [DeepSpeed: System Optimizations Enable Training Deep Learning Models with Over 100 Billion Parameters.](https://dl.acm.org/doi/10.1145/3394486.3406703)                                    | [DeepSpeed](#ds) |
+| 2020 |       SC        | [ZeRO: memory optimizations toward training trillion parameter models.](https://dl.acm.org/doi/10.5555/3433701.3433727)                                                                     | [DeepSpeed](#ds) |
+| 2020 |    NeuraIPS     | [Accelerating Training of Transformer-Based Language Models with Progressive Layer Dropping](https://proceedings.neurips.cc/paper/2020/hash/a1140a3d0df1c81e24ae954d935e8926-Abstract.html) | [DeepSpeed](#ds) |
+
 
 
 ### Inference
 
-| Year  | Publisher | Title  | Framework |
-| :---: | :-------: | :----- | :-------: |
-| Year  |    Pub    | Title  | Framework |
-| Year  |    Pub    | Title1 | Framework |
+| Year | Publisher | Title                                                                                                                                                          |    Framework     |
+|:----:|:---------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
+| 2022 |   ICML    | [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a.html) | [DeepSpeed](#ds) |
+| 2022 |    SC     | [DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale](https://dl.acm.org/doi/abs/10.5555/3571885.3571946)           | [DeepSpeed](#ds) |
 
 
 ### Benchmark

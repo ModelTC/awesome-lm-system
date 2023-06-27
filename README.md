@@ -45,7 +45,9 @@ This paper collects papers, repos, tools for large model system, including train
 
 ## Frameworks
 
-| Year  | Name  | Training | Inference |  Serving  | Comments  |
-| :---: | :---: | :------- | :-------: | :-------: | :------- |
-| Year  |  Pub  | Title    | Framework | Framework | Framework |
-| Year  |  Pub  | Title1   | Framework | Framework | Framework |
+| Year |                                                Name                                                 | Training | Inference | Serving | Comments                                                                                |
+|:----:|:---------------------------------------------------------------------------------------------------:|:---------|:---------:|:-------:|:----------------------------------------------------------------------------------------|
+| 2022 |                <span id="alpa"></span>[Alpa](https://github.com/alpa-projects/alpa)                 | ✔        |     ✔     |    ✔    | Compilation based mixed parallelism                                                     |
+| 2021 | <span id="megatron-ds"></span>[Megatron-DeepSpeed](https://github.com/microsoft/Megatron-DeepSpeed) | ✔        |     ✗     |    ✗    | Add  MoE model training, Curriculum Learning, 3D Parallelism from DeepSpeed to Megatron |
+| 2020 |              <span id="ds"></span>[DeepSpeed](https://github.com/microsoft/DeepSpeed)               | ✔        |     ✔     |    ✗    | General Support of Transformers and MoE with 3d-parallelism                                                                                        |
+| 2019 |           <span id="megatron"></span>[Megatron-LM](https://github.com/NVIDIA/Megatron-LM)           | ✔        |     ✗     |    ✗    |                                                                                         |

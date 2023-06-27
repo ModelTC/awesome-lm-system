@@ -36,6 +36,9 @@ This paper collects papers, repos, tools for large model system, including train
 | 2020 | SIGKDD Tutorial | [DeepSpeed: System Optimizations Enable Training Deep Learning Models with Over 100 Billion Parameters.](https://dl.acm.org/doi/10.1145/3394486.3406703)                                    | [DeepSpeed](#ds) |
 | 2020 |       SC        | [ZeRO: memory optimizations toward training trillion parameter models.](https://dl.acm.org/doi/10.5555/3433701.3433727)                                                                     | [DeepSpeed](#ds) |
 | 2020 |    NeuraIPS     | [Accelerating Training of Transformer-Based Language Models with Progressive Layer Dropping](https://proceedings.neurips.cc/paper/2020/hash/a1140a3d0df1c81e24ae954d935e8926-Abstract.html) | [DeepSpeed](#ds) |
+| 2020 |         | [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism
+](https://arxiv.org/abs/1909.08053) | [Megatron-LM](#megatron) |
+
 
 
 

@@ -61,10 +61,11 @@ This paper collects papers, repos, tools for large model system, including train
 
 ### Inference
 
-| Year | Publisher | Title                                                                                                                                                          |    Framework     |
-|:----:|:---------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
-| 2022 |   ICML    | [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a.html) | [DeepSpeed](#ds) |
-| 2022 |    SC     | [DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale](https://dl.acm.org/doi/abs/10.5555/3571885.3571946)           | [DeepSpeed](#ds) |
+| Year | Publisher | Title                                                                                                                                                          |       Framework       |
+|:----:|:---------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------:|
+| 2023 |           | [EnergonAI: An Inference System for 10-100 Billion Parameter Transformer Models](https://arxiv.org/abs/2209.02341)                                             | [EnergonAI](#energon) |
+| 2022 |   ICML    | [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a.html) |   [DeepSpeed](#ds)    |
+| 2022 |    SC     | [DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale](https://dl.acm.org/doi/abs/10.5555/3571885.3571946)           |   [DeepSpeed](#ds)    |
 
 
 ### Benchmark
@@ -86,6 +87,7 @@ This paper collects papers, repos, tools for large model system, including train
 
 | Year |                                                Name                                                 | Training | Inference | Serving | Comments                                                                                |
 |:----:|:---------------------------------------------------------------------------------------------------:|:---------|:---------:|:-------:|:----------------------------------------------------------------------------------------|
+| 2023 |            <span id="energon"></span>[EnergonAI](https://github.com/hpcaitech/EnergonAI)            | ✗        |     ✔     |    ✗    |                                                                                         |
 | 2022 |                <span id="alpa"></span>[Alpa](https://github.com/alpa-projects/alpa)                 | ✔        |     ✔     |    ✔    | Compilation based mixed parallelism                                                     |
 | 2021 | <span id="megatron-ds"></span>[Megatron-DeepSpeed](https://github.com/microsoft/Megatron-DeepSpeed) | ✔        |     ✗     |    ✗    | Add  MoE model training, Curriculum Learning, 3D Parallelism from DeepSpeed to Megatron |
 | 2021 |            <span id="terapipe"></span>[TeraPipe](https://github.com/zhuohan123/terapipe)            | ✔        |     ✗     |    ✗    |                                                                                         |

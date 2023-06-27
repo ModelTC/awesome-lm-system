@@ -1,6 +1,6 @@
 # Awesome Large Model (LM) System [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This paper collects papers, repos, tools for large model system, including training, inference, serving and compression.
+This repo collects papers, repos, tools for large model system, including training, inference, serving and compression.
 
 - [Awesome Large Model (LM) System ](#awesome-large-model-lm-system-)
   - [Papers](#papers)

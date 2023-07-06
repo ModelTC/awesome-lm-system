@@ -60,6 +60,7 @@ This repo collects papers, repos, tools for large model system, including traini
 | 2019 |     SOSP     | [PipeDream: Generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/10.1145/3341301.3359646 )                                                                             |  [PipeDream](#pipedream)  |
 
 
+<!-- | 2023 | | []() | | -->
 
 
 
@@ -68,8 +69,25 @@ This repo collects papers, repos, tools for large model system, including traini
 | Year | Publisher | Title                                                                                                                                                          |       Framework       |
 |:----:|:---------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------:|
 | 2023 |           | [EnergonAI: An Inference System for 10-100 Billion Parameter Transformer Models](https://arxiv.org/abs/2209.02341)                                             | [EnergonAI](#energon) |
+| 2023 | | [H<sub>2</sub>O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://arxiv.org/abs/2306.14048) | |
+| 2023 | | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://arxiv.org/abs/2303.06865) | |
+| 2023 | | [SqueezeLLM: Dense-and-Sparse Quantization](https://arxiv.org/abs/2306.07629) | |
+| 2023 | | [A Simple and Effective Pruning Approach for Large Language Models](https://arxiv.org/abs/2306.11695) | |
+| 2023 | ICML | [SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774) | |
+| 2023 | | [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) | |
+| 2023 | | [OWQ: Lessons learned from activation outliers for weight quantization in large language models](https://arxiv.org/abs/2306.02272) | |
+| 2023 | ICLR | [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323) | |
+| 2023 | ISCA | [OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization](https://dl.acm.org/doi/abs/10.1145/3579371.3589038) | | 
+| 2023 | | [Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing](https://arxiv.org/abs/2306.12929) | |
+| 2023 | | [ZeroQuant-V2: Exploring Post-training Quantization in LLMs from Comprehensive Study to Low Rank Compensation](https://arxiv.org/abs/2303.08302) | |
+| 2023 | ICML | [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438) | |
+| 2023 | | [Outlier Suppression+: Accurate quantization of large language models by equivalent and optimal shifting and scaling](https://arxiv.org/pdf/2304.09145) | |
 | 2022 |   ICML    | [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a.html) |   [DeepSpeed](#ds)    |
 | 2022 |    SC     | [DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale](https://dl.acm.org/doi/abs/10.5555/3571885.3571946)           |   [DeepSpeed](#ds)    |
+| 2022 | NeuraIPS | [Outlier Suppression: Pushing the Limit of Low-bit Transformer Language Models](https://proceedings.neurips.cc/paper_files/paper/2022/file/6f6db140de9c9f111b12ef8a216320a9-Paper-Conference.pdf) |
+| 2022 | NeuraIPS | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) | |
+| 2022 | NeuraIPS | [ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers](https://proceedings.neurips.cc/paper_files/paper/2022/file/adf7fa39d65e2983d724ff7da57f00ac-Paper-Conference.pdf) | |
+| 2021 | EMNLP | [Understanding and Overcoming the Challenges of Efficient Transformer Quantization](https://arxiv.org/abs/2109.12948) | |
 
 
 ### Benchmark

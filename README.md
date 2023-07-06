@@ -16,6 +16,8 @@ This repo collects papers, repos, tools for large model system, including traini
 
 | Year |  Publisher   | Title                                                                                                                                                                                       |         Framework         |
 |:----:|:------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------:|
+| 2023 |              | [Training Diffusion Models with Reinforcement Learning](https://arxiv.org/abs/2305.13301) |                           |
+| 2023 |              | [Extracting Training Data from Diffusion Models](https://arxiv.org/abs/2301.13188) |                           |
 | 2023 |              | [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)                                                                                                           |                           |
 | 2023 |              | [Understanding INT4 Quantization for Transformer Models: Latency Speedup, Composability, and Failure Cases](https://arxiv.org/abs/2301.12017)                                               |     [DeepSpeed](#ds)      |
 | 2023 |     ICLR     | [DySR: Adaptive Super-Resolution via Algorithm and System Co-design](https://openreview.net/forum?id%253DPgtn4l6eKjv)                                                                       |     [DeepSpeed](#ds)      |
@@ -25,6 +27,7 @@ This repo collects papers, repos, tools for large model system, including traini
 | 2023 |     OSDI     | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://arxiv.org/abs/2302.11665)                                                                    |       [Alpa](#alpa)       |
 | 2023 |    MLSys     | [On Optimizing the Communication of Model Parallelism](https://arxiv.org/abs/2211.05322)                                                                                                    |       [Alpa](#alpa)       |
 | 2023 |              | [Colossal-Auto: Unified Automation of Parallelization and Activation Checkpoint for Large-scale Models](https://arxiv.org/abs/2302.02599)                                                   | [ColossalAI](#colossalai) |
+| 2022 |     CVPR     | [Perception Prioritized Training of Diffusion Models](https://openaccess.thecvf.com/content/CVPR2022/papers/Choi_Perception_Prioritized_Training_of_Diffusion_Models_CVPR_2022_paper.pdf) |                           |
 | 2022 |              | [Reducing Activation Recomputation in Large Transformer Models](https://arxiv.org/abs/2205.05198)                                                                                           | [Megatron-LM](#megatron)  |
 | 2022 |     HiPC     | [1-bit LAMB: Communication Efficient Large-Scale Large-Batch Training with LAMB's Convergence Speed](https://ieeexplore.ieee.org/document/10106313)                                         |     [DeepSpeed](#ds)      |
 | 2022 |   NeurIPS    | [The Stability-Efficiency Dilemma: Investigating Sequence Length Warmup for Training GPT Models](https://openreview.net/forum?id%253DJpZ5du_Kdh)                                            |     [DeepSpeed](#ds)      |
@@ -54,20 +57,22 @@ This repo collects papers, repos, tools for large model system, including traini
 | 2020 | KDD Tutorial | [DeepSpeed: System Optimizations Enable Training Deep Learning Models with Over 100 Billion Parameters.](https://dl.acm.org/doi/10.1145/3394486.3406703)                                    |     [DeepSpeed](#ds)      |
 | 2020 |      SC      | [ZeRO: memory optimizations toward training trillion parameter models.](https://dl.acm.org/doi/10.5555/3433701.3433727)                                                                     |     [DeepSpeed](#ds)      |
 | 2020 |   NeuraIPS   | [Accelerating Training of Transformer-Based Language Models with Progressive Layer Dropping](https://proceedings.neurips.cc/paper/2020/hash/a1140a3d0df1c81e24ae954d935e8926-Abstract.html) |     [DeepSpeed](#ds)      |
-| 2020 |              | [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)                                                                   | [Megatron-LM](#megatron)  |
-| 2020 |              | [torchgpipe: On-the-fly Pipeline Parallelism for Training Giant Models](https://arxiv.org/abs/2004.09910)                                                                                   |   [TorchGpipe](#gpipe)    |
-| 2019 |   NeuraIPS   | [GPipe: efficient training of giant neural networks using pipeline parallelism](https://papers.nips.cc/paper_files/paper/2019/hash/093f65e080a295f8076b1c5722a46aa2-Abstract.html)          |   [TorchGpipe](#gpipe)    |
-| 2019 |     SOSP     | [PipeDream: Generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/10.1145/3341301.3359646 )                                                                             |  [PipeDream](#pipedream)  |
+| 2020 |              | [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053) | [Megatron-LM](#megatron)  |
+| 2020 |              | [torchgpipe: On-the-fly Pipeline Parallelism for Training Giant Models](https://arxiv.org/abs/2004.09910) |   [TorchGpipe](#gpipe)    |
+| 2019 |   NeuraIPS   | [GPipe: efficient training of giant neural networks using pipeline parallelism](https://papers.nips.cc/paper_files/paper/2019/hash/093f65e080a295f8076b1c5722a46aa2-Abstract.html) |   [TorchGpipe](#gpipe)    |
+| 2019 |     SOSP     | [PipeDream: Generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/10.1145/3341301.3359646 ) |  [PipeDream](#pipedream)  |
 
+### Compression
 
-<!-- | 2023 | | []() | | -->
-
-
+| Year | Publisher | Title                                                        | Framework |
+| ---- | --------- | ------------------------------------------------------------ | --------- |
+| 2023 |           | [On Architectural Compression of Text-to-Image Diffusion Models](https://arxiv.org/pdf/2305.15798.pdf) |           |
 
 ### Inference
 
 | Year | Publisher | Title                                                                                                                                                          |       Framework       |
 |:----:|:---------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------:|
+| 2023 |           | [Fast Inference in Denoising Diffusion Models via MMD Finetuning](https://arxiv.org/pdf/2301.07969v1.pdf) |                       |
 | 2023 |           | [EnergonAI: An Inference System for 10-100 Billion Parameter Transformer Models](https://arxiv.org/abs/2209.02341)                                             | [EnergonAI](#energon) |
 | 2023 | | [H<sub>2</sub>O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://arxiv.org/abs/2306.14048) | |
 | 2023 | | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://arxiv.org/abs/2303.06865) | |
@@ -88,6 +93,7 @@ This repo collects papers, repos, tools for large model system, including traini
 | 2022 | NeuraIPS | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) | |
 | 2022 | NeuraIPS | [ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers](https://proceedings.neurips.cc/paper_files/paper/2022/file/adf7fa39d65e2983d724ff7da57f00ac-Paper-Conference.pdf) | |
 | 2021 | EMNLP | [Understanding and Overcoming the Challenges of Efficient Transformer Quantization](https://arxiv.org/abs/2109.12948) | |
+
 
 
 ### Benchmark
